@@ -8,8 +8,8 @@ public class Main {
 
         //System.out.println(projectile.getTime());
 
-        System.out.println(projectile.getX() + " " + projectile.getY());
-        projectile.incTime(4);
+        //System.out.println(projectile.getX() + " " + projectile.getY());
+        projectile.incTime(5);
         System.out.println(projectile.getX() + " " + projectile.getY());
 
 
