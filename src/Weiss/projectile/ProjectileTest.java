@@ -11,9 +11,9 @@ class ProjectileTest {
         //given
         Projectile projectile = new Projectile(39, 77);
         //when
-        double actual = projectile.incTime(5);
+        projectile.incTime(5);
         //then
-        assertEquals(299.2011951609338, projectile.getX(), actual);
+        assertEquals(299.2011951609338, projectile.getX(), .0001);
     }
 
     @Test
@@ -21,9 +21,9 @@ class ProjectileTest {
         //given
         Projectile projectile = new Projectile(39, 77);
         //when
-        double actual = projectile.incTime(5);
+        projectile.incTime(5);
         //then
-        assertEquals(119.78835055418737, projectile.getY(), actual);
+        assertEquals(119.78835055418737, projectile.getY(), .0001);
     }
 
 

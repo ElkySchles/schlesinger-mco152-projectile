@@ -11,9 +11,8 @@ public class Projectile {
         this.velocity = velocity;
     }
 
-    public double incTime(double delta) {
+    public void incTime(double delta) {
         time += delta;
-        return delta;
     }
 
     public double getTime() {
